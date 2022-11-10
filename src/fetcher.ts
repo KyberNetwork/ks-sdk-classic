@@ -1,7 +1,7 @@
 import { Contract } from '@ethersproject/contracts'
 import { getNetwork } from '@ethersproject/networks'
 import { getDefaultProvider } from '@ethersproject/providers'
-import { Token, TokenAmount, ChainId } from '@namgold/ks-sdk-core'
+import { Token, TokenAmount, ChainId } from '@kyberswap/ks-sdk-core'
 import { Pair } from './entities/pair'
 import invariant from 'tiny-invariant'
 import ERC20 from './abis/ERC20.json'

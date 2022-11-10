@@ -1,5 +1,5 @@
 import invariant from 'tiny-invariant'
-import { Currency, CurrencyAmount, Percent, validateAndParseAddress, TradeType } from '@namgold/ks-sdk-core'
+import { Currency, CurrencyAmount, Percent, validateAndParseAddress, TradeType } from '@kyberswap/ks-sdk-core'
 import { Trade } from './entities'
 
 /**

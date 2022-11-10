@@ -1,7 +1,7 @@
 import { ZERO } from '../src/constants'
 import JSBI from 'jsbi'
 import { Pair, InsufficientInputAmountError } from '../src'
-import { ChainId, Token, TokenAmount, sortedInsert } from '@namgold/ks-sdk-core'
+import { ChainId, Token, TokenAmount, sortedInsert } from '@kyberswap/ks-sdk-core'
 
 const ampBps = JSBI.BigInt(10000)
 
