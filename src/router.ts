@@ -82,7 +82,7 @@ export abstract class Router {
     invariant(!(etherIn && etherOut), 'ETHER_IN_OUT')
     invariant(!('ttl' in options) || options.ttl > 0, 'TTL')
 
-    const to: string = validateAndParseAddress(options.recipient)
+    const to: string = validateAndParseAddress(options.recipient, trade.inputAmount.currency.chainId)
     const amountIn: string = toHex(trade.maximumAmountIn(options.allowedSlippage))
     const amountOut: string = toHex(trade.minimumAmountOut(options.allowedSlippage))
     const pairsPath: string[] = trade.route.pairs.map(pair => pair.address)
