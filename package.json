@@ -1,7 +1,7 @@
 {
   "name": "@kyberswap/ks-sdk-classic",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "🛠 An SDK for building applications on top of Dynamic AMM.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -13,7 +13,7 @@
     "kyberswap",
     "ethereum"
   ],
-  "module": "dist/sdk.esm.js",
+  "module": "dist/ks-sdk-classic.esm.js",
   "scripts": {
     "lint": "tsdx lint src test",
     "build": "tsdx build",
@@ -28,7 +28,7 @@
     "@ethersproject/networks": "^5.0.2",
     "@ethersproject/providers": "^5.0.5",
     "@ethersproject/solidity": "^5.0.2",
-    "@kyberswap/ks-sdk-core": "^1.0.1",
+    "@kyberswap/ks-sdk-core": "^1.0.5",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.4",
@@ -60,4 +60,3 @@
     ]
   }
 }
-
